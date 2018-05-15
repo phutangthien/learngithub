@@ -1,0 +1,120 @@
+﻿@using Doancoso.Models;
+@model List<Giohang>
+@{
+    ViewBag.Title = "Giỏ Hàng";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<div class="page-head">
+    <div class="container">
+        <h3>Thông Tin Giỏ Hàng</h3>
+    </div>
+</div>
+@*<div class="table-responsive">
+<table align="center" border="1" style="margin-top:5%;">
+    <tr style="text-align:center;font-weight:bold">
+        <td>Mã sản phẩm</td>
+        <td>Tên</td>
+        <td>Ảnh</td>
+        <td>Số lượng</td>
+        <td>Đơn giá</td>
+        <td>Thành tiền</td>
+        <td width="50px"></td>
+        <td width="50px"></td>
+        <td width="50px"></td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr style="text-align:center;font-weight:bold">
+            <td>@item.iMaSanPham</td>
+            <td>@item.sTenSanPham</td>
+            <td><img src="~/images/@item.sAnh" /></td>
+            @using (Html.BeginForm("CapnhatGiohang", "Giohang", new { @iMaSP = item.iMaSanPham }))
+            {
+                <td>
+                    <input type="number" min="1" name="txtSoluong" value="@item.iSoluong" style="background-color:yellow" />
+                </td>
+                <td>@String.Format("{0:0,0}", item.dDongia)</td>
+                <td>@String.Format("{0:0,0}", item.dThanhTien)</td>
+                <td><a href="@Url.Action("Details", "TToodStore", new { id = item.iMaSanPham })">Chi tiết</a></td>
+                <td>@Html.ActionLink("Xóa", "XoaGioHang", new { @iMaSP = item.iMaSanPham })</td>
+                <td><input type="submit" value="Cập Nhật" /></td>
+            }
+
+
+
+        </tr>
+    }
+    <tr style="font-weight:bold;text-align:right;color:green">
+        <td colspan="4">Số lượng: @ViewBag.Tongsoluong</td>
+        <td colspan="5">Tổng Tiền: @String.Format("{0:0,0}", ViewBag.TongTien) VNĐ</td>
+    </tr>
+</table>
+</div>*@
+
+<div class="checkout">
+    <div class="container">
+        <div class="table-responsive checkout-right animated wow slideInUp" data-wow-delay=".5s">
+            <table class="timetable_sub">
+                <thead>
+                    <tr>
+                        <th>Tên sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Cập nhập</th>
+                        <th>Sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                </thead>
+                @foreach (var item in Model)
+                {
+                    <tr class="rem1">
+                                <td class="invert">@item.sTenSanPham</td>
+                                <td class="invert">@item.dDongia</td>
+                    @using (Html.BeginForm("CapnhatGiohang", "Giohang", new { @iMaSP = item.iMaSanPham }))
+                        {
+                             
+                                <td class="invert-closeb">
+                                    <div class="rem">
+                                        <input type="image"  value="Cập Nhật" /> |
+                                        <a href="@Url.Action("XoaGioHang", "Giohang", new { @iMaSP = item.iMaSanPham })" style="color:white;background:#c9302c;padding:5px;border-radius:5px;"><i class="fa fa-trash-o"></i></a>
+                                    </div>
+                                </td>
+                                <td class="invert-image"><a href="@Url.Action("Details", "TTrangStore", new { id = item.iMaSanPham })"><img src="~/images/@item.sAnh" alt=" " class="img-responsive" /></a></td>
+                                <td class="invert">
+                                    <div class="quantity">
+                                        <input type="number" min="1" name="txtSoluong" value="@item.iSoluong" style="background-color: #FDA30E;width:60%;" />
+                                    </div>
+                                </td>
+                                <td class="invert">
+                                   @String.Format("{0:0,0}", item.dThanhTien)
+                                </td>
+                        }
+                    </tr>
+                }
+                <tr style="font-weight:bold;text-align:right;">
+                    <td colspan="4">Số lượng: @ViewBag.Tongsoluong</td>
+                    <td colspan="5">Tổng Tiền: @String.Format("{0:0,0}", ViewBag.TongTien) VNĐ</td>
+                </tr>
+                <tr style="font-weight: bold; text-align: rightcolor: #FDA30E;">
+                    <td colspan="9">
+                        @Html.ActionLink("Xóa Giỏ Hàng", "XoaTatcaGiohang")
+                    </td>
+                </tr>
+                <tr style="font-weight: bold; text-align: right; color: #FDA30E;">
+                    <td colspan="9" align="center">
+                        @Html.ActionLink("Đặt Hàng", "DatHang", "GioHang")
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="checkout-left">
+
+            <div class="checkout-right-basket animated wow slideInRight" data-wow-delay=".5s">
+                <a href="@Url.Action("Index", "TTrangStore")"><span class="" aria-hidden="true"></span>Tiếp tục mua sắm</a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+                        
+    </div>
+</div>
+

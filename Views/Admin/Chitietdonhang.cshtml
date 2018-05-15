@@ -1,0 +1,109 @@
+﻿@model Doancoso.Models.CHITIETDONHANG
+@using Doancoso.Models;
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Chitietdonhang";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>CHI TIẾT ĐƠN HÀNG </h2>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+           Mã đơn hàng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(modelItem => Model.MaDonHang)
+        </dd>
+
+        <dt>
+            Họ tên khách hàng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.KHACHHANG.HoTen)
+        </dd>
+
+        <dt>
+            Email:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.KHACHHANG.Email)
+        </dd>
+
+        <dt>
+            Địa chỉ:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.KHACHHANG.DiachiKH)
+        </dd>
+
+        <dt>
+            Tên sản phẩm:
+        </dt>
+
+        <dd>
+
+            @Html.DisplayFor(model => model.SANPHAM.TenSanPham)
+        </dd>
+
+        <dt>
+            Ảnh:
+        </dt>
+
+        <dd>
+            <img src="@Url.Content("~/images/" + Model.SANPHAM.Anh)" />
+        </dd>
+
+        <dt>
+            Ngày giao:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.Ngaygiao)
+        </dd>
+
+        <dt>
+            Ngày đặt:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.Ngaydat)
+        </dd>
+
+        <dt>
+            Số lượng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluong)
+        </dd>
+
+        <dt>
+            Đơn giá:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dongia)
+        </dd>
+
+        <dt>
+            Tình trạng giao hàng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.Tinhtranggiaohang)
+        </dd>
+
+     
+
+    </dl>
+</div>
+<p>
+    
+    @Html.ActionLink("TRỞ VỀ", "Donhang")
+</p>

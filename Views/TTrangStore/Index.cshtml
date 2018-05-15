@@ -1,0 +1,159 @@
+﻿@using Doancoso.Models;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<SANPHAM>
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<div class="banner-grid">
+    <div id="visual">
+        <div class="slide-visual">
+    
+            <ul class="slide-group">
+                <li><img class="img-responsive" src="~/images/ba1.jpg" alt="Dummy Image" /></li>
+                <li><img class="img-responsive" src="~/images/ba2.jpg" alt="Dummy Image" /></li>
+                <li><img class="img-responsive" src="~/images/ba3.jpg" alt="Dummy Image" /></li>
+            </ul>
+
+
+            <div class="script-wrap">
+                <ul class="script-group">
+                    <li><div class="inner-script"><img class="img-responsive" src="~/images/baa1.jpg" alt="Dummy Image" /></div></li>
+                    <li><div class="inner-script"><img class="img-responsive" src="~/images/baa2.jpg" alt="Dummy Image" /></div></li>
+                    <li><div class="inner-script"><img class="img-responsive" src="~/images/baa3.jpg" alt="Dummy Image" /></div></li>
+                </ul>
+                <div class="slide-controller">
+                    <a href="#" class="btn-prev"><img src="~/images/btn_prev.png" alt="Prev Slide" /></a>
+                    <a href="#" class="btn-play"><img src="~/images/btn_play.png" alt="Start Slide" /></a>
+                    <a href="#" class="btn-pause"><img src="~/images/btn_pause.png" alt="Pause Slide" /></a>
+                    <a href="#" class="btn-next"><img src="~/images/btn_next.png" alt="Next Slide" /></a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <script type="text/javascript" src="~/Scripts/pignose.layerslider.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        $(window).load(function () {
+            $('#visual').pignoseLayerSlider({
+                play: '.btn-play',
+                pause: '.btn-pause',
+                next: '.btn-next',
+                prev: '.btn-prev'
+            });
+        });
+        //]]>
+    </script>
+
+</div>
+
+<div class="new_arrivals">
+    <div class="container">
+        <h3><span>Smart </span>shop</h3>
+        <p>Chúng tôi luôn đi đầu với chữ tín tất cả khách hàng </p>
+        <div class="new_grids">
+            <div class="col-md-4 new-gd-left">
+                <img src="~/images/wed1.jpg" alt=" " />
+                <div class="wed-brand simpleCart_shelfItem">
+                    <h4>SƯU TẬP ÁO CƯỚI</h4>
+                    <h5>SALE 50% TÀI KHOẢN</h5>
+
+                </div>
+            </div>
+            <div class="col-md-4 new-gd-middle">
+                <div class="new-levis">
+                    <div class="mid-img">
+                        <img src="~/images/levis1.png" alt=" " />
+                    </div>
+                    <div class="mid-text">
+                        <h4>Sale off<span>40%</span></h4>
+
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="new-levis">
+                    <div class="mid-text">
+                        <h4>Sale off<span>50%</span></h4>
+
+                    </div>
+                    <div class="mid-img">
+                        <img src="~/images/dig.jpg" alt=" " />
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-md-4 new-gd-left">
+                <img src="~/images/wed2.jpg" alt=" " />
+                <div class="wed-brandtwo simpleCart_shelfItem">
+                    <h4>Xuân / Đông</h4>
+                    <p>Quần áo</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="product-easy">
+    <div class="container">
+
+        <script src="~/Scripts/easyResponsiveTabs.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#horizontalTab').easyResponsiveTabs({
+                    type: 'default', //Types: default, vertical, accordion
+                    width: 'auto', //auto or any width like 600px
+                    fit: true   // 100% fit in a container
+                });
+            });
+
+        </script>
+                    @foreach (var sanpham in Model)
+                    {
+
+
+                        <div class="col-md-3 product-men">
+                            <div class="men-pro-item simpleCart_shelfItem">
+                                <div class="men-thumb-item">
+                                    <img title=" " alt="@sanpham.TenSanPham" src="~/images/@sanpham.Anh" class="pro-image-front">
+                                    <img title=" " alt="@sanpham.TenSanPham" src="~/images/@sanpham.Anh" class="pro-image-back">
+                                    <div class="men-cart-pro">
+                                        <div class="inner-men-cart-pro">
+                                            <a href="@Url.Action("Details", "TTrangStore", new { id = sanpham.MaSanPham })" class="link-product-add-cart">XEM</a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="item-info-product ">
+                                    <h4>@sanpham.TenSanPham</h4>
+                                    <div class="info-product-price">
+                                        <span class="item_price">@sanpham.Giaban Đồng</span>
+                                    </div>
+                                    <a href="@Url.Action("ThemGioHang", "GioHang", new { @iMaSanPham = @sanpham.MaSanPham, @strURL=Request.Url.ToString() })" class="item_add single-item hvr-outline-out button2">Thêm vào giỏ</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+        </div>
+           </div>
+<div class="col-md-12 top_brand_left">
+    <div class="container">
+        <div style="color:#ff0000;margin-top:2%;">
+            Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+        </div>
+        <div class="MenuTrang">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page}))
+        </div>
+    </div>
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+        
+    }
+</style>
+

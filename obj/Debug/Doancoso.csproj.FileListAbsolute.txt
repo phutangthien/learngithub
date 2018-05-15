@@ -1,0 +1,236 @@
+F:\Laptrinh web\Doancoso\Doancoso\bin\Doancoso.dll.config
+F:\Laptrinh web\Doancoso\Doancoso\bin\Doancoso.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Doancoso.pdb
+F:\Laptrinh web\Doancoso\Doancoso\bin\Antlr3.Runtime.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\EntityFramework.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\EntityFramework.SqlServer.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Google.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Web.Infrastructure.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Newtonsoft.Json.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\Owin.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.Helpers.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.Mvc.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.Optimization.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.Razor.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.WebPages.Deployment.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.WebPages.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.WebPages.Razor.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\WebGrease.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.Helpers.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.Mvc.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.Optimization.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.Razor.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.WebPages.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.WebPages.Deployment.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\System.Web.WebPages.Razor.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Newtonsoft.Json.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Antlr3.Runtime.pdb
+F:\Laptrinh web\Doancoso\Doancoso\bin\EntityFramework.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\EntityFramework.SqlServer.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Google.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Laptrinh web\Doancoso\Doancoso\obj\Debug\Doancoso.csprojResolveAssemblyReference.cache
+F:\Laptrinh web\Doancoso\Doancoso\obj\Debug\Doancoso.dll
+F:\Laptrinh web\Doancoso\Doancoso\obj\Debug\Doancoso.pdb
+F:\Laptrinh web\Doancoso\Doancoso\bin\PagedList.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\PagedList.Mvc.dll
+F:\Laptrinh web\Doancoso\Doancoso\bin\PagedList.xml
+F:\Laptrinh web\Doancoso\Doancoso\bin\PagedList.Mvc.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Doancoso.dll.config
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Doancoso.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Doancoso.pdb
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Antlr3.Runtime.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\EntityFramework.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\EntityFramework.SqlServer.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Google.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Web.Infrastructure.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Newtonsoft.Json.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Owin.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\PagedList.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\PagedList.Mvc.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.Helpers.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.Mvc.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.Optimization.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.Razor.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.Deployment.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.Razor.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\WebGrease.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\PagedList.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\PagedList.Mvc.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.Helpers.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.Mvc.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.Optimization.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.Razor.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.Deployment.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.Razor.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Newtonsoft.Json.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Antlr3.Runtime.pdb
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\EntityFramework.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\EntityFramework.SqlServer.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Google.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Laptrinh web\Doancoso - Copy\Doancoso\obj\Debug\Doancoso.csprojResolveAssemblyReference.cache
+F:\Laptrinh web\Doancoso - Copy\Doancoso\obj\Debug\Doancoso.dll
+F:\Laptrinh web\Doancoso - Copy\Doancoso\obj\Debug\Doancoso.pdb
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Doancoso.dll.config
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Doancoso.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Doancoso.pdb
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Antlr3.Runtime.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\EntityFramework.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\EntityFramework.SqlServer.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.Core.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Cookies.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Facebook.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Google.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.OAuth.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Twitter.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Web.Infrastructure.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Newtonsoft.Json.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Owin.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\PagedList.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\PagedList.Mvc.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.Helpers.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.Mvc.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.Optimization.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.Razor.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.Deployment.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.Razor.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\WebGrease.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\PagedList.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\PagedList.Mvc.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.Helpers.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.Mvc.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.Optimization.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.Razor.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.Deployment.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\System.Web.WebPages.Razor.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Newtonsoft.Json.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Antlr3.Runtime.pdb
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\EntityFramework.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\EntityFramework.SqlServer.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.Core.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Facebook.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Cookies.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.OAuth.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Google.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.Twitter.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\obj\Debug\Doancoso.csprojResolveAssemblyReference.cache
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\obj\Debug\Doancoso.dll
+F:\DoAn\Doancoso-Copy\Doancoso - Copy\Doancoso\obj\Debug\Doancoso.pdb
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Doancoso.dll.config
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Doancoso.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Doancoso.pdb
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Antlr3.Runtime.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\EntityFramework.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\EntityFramework.SqlServer.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.Core.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Cookies.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Facebook.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Google.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.OAuth.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Twitter.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Web.Infrastructure.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Newtonsoft.Json.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Owin.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\PagedList.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\PagedList.Mvc.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.Helpers.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.Mvc.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.Optimization.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.Razor.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.WebPages.Deployment.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.WebPages.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.WebPages.Razor.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\WebGrease.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\PagedList.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\PagedList.Mvc.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.Helpers.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.Mvc.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.Optimization.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.Razor.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.WebPages.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.WebPages.Deployment.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\System.Web.WebPages.Razor.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Newtonsoft.Json.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Antlr3.Runtime.pdb
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\EntityFramework.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\EntityFramework.SqlServer.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.Core.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Facebook.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Cookies.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.OAuth.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Google.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.Twitter.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\obj\Debug\Doancoso.csprojResolveAssemblyReference.cache
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\obj\Debug\Doancoso.dll
+F:\DoAn\QLThoiTrang_MVC\Doancoso\Doancoso\obj\Debug\Doancoso.pdb

@@ -1,0 +1,104 @@
+﻿<style>
+    .colorbtn input.button {
+        font-size: 14px;
+        color: rgb(210, 209, 209);
+        //background: #FA1818;
+        text-decoration: none;
+        position: relative;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        text-transform: uppercase;
+        padding: .5em 0;
+        outline: none;
+    }
+
+        input#TenDN, input#Matkhau {
+        padding: 1px 56px;
+        width: 120%;
+        margin-top: 5%;
+        height: 47px;
+        color: rgb(174, 170, 170);
+        text-align: justify;
+        outline: none;
+        letter-spacing: 1px;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'Muli', sans-serif;
+        background-color: transparent;
+        border-radius: 30px;
+    }
+
+    input#TenDN:focus, input#Matkhau:focus {
+       background-color: #fff;
+       border: 1px solid rgb(253, 163, 14);
+    }
+
+    .Dangnhap {
+        background-color: #f15f22;
+        width: 82%;
+        height: 55px;
+        margin-top: 15%;
+        border: none;
+        margin-left: 233px;
+        cursor: pointer;
+        margin-left: 22%;
+        color: #fff;
+        outline: none;
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -o-border-radius: 30px;
+        -ms-border-radius: 30px;
+        font-family: 'Muli', sans-serif;
+    }
+</style>
+
+
+@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<div class="page-head">
+    <div class="container">
+        <h3>ĐĂNG Nhập</h3>
+    </div>
+</div>
+
+<table style="margin-top:5%" align="center">
+    <h4 style="color:red;text-align:center;margin-top:4%;">@ViewBag.Thongbao</h4>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        <tr style="height:40px">
+
+            <td style="color: #000; position: relative; font-size: 16px; left: -11%; ">Tên Đăng nhập:</td>
+            <td>
+                @Html.TextBox("TenDN")
+                @ViewData["Loi1"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td style="color: #000; position: relative; font-size: 16px; left: -11%; ">Mật khẩu</td>
+            <td>
+                @Html.Password("Matkhau")
+                @ViewData["Loi2"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td></td>
+            <td>
+                <input class="Dangnhap" type="Submit" value="Đăng Nhập" />
+            </td>
+        </tr>
+    }
+</table>
+

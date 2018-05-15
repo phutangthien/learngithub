@@ -1,0 +1,64 @@
+﻿@using Doancoso.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<Doancoso.Models.LIENHE>
+
+@{
+    ViewBag.Title = "Liên hệ";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Liên hệ</h2>
+<div class="col-md-12 span_3">
+    <div class="bs-example1" data-example-id="contextual-table">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                       Họ tên khách hàng
+                    </th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Nội dung
+                    </th>
+                    
+                    <th>
+                    </th>
+                </tr>
+            </thead>
+            @foreach (var item in Model)
+            {
+                <tbody>
+                    <tr class="active">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TenKH)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Mota)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Xem", "Chitietlienhe", new { id = item.MaLH}) |
+                            @Html.ActionLink("Xoá", "Xoalienhe", new { id = item.MaLH })
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+@*Tạo liên kết các trang*@
+<div style="color:blue">
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+</div>
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("Lienhe", new { page = page }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+    }
+</style>

@@ -1,0 +1,94 @@
+﻿@model Doancoso.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "Themmoinguoidung";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Thêm mới người dùng</h2>
+
+@using (Html.BeginForm("Themmoinguoidung", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true)
+
+        <dl class="dl-horizontal">
+            <dt>
+                Họ tên:
+            </dt>
+
+            <dd style="margin-bottom: 10px;">
+                @Html.EditorFor(model => model.HoTen)
+                @Html.ValidationMessageFor(model => model.HoTen)
+            </dd>
+
+            <dt>
+                Tài khoản:
+            </dt>
+
+            <dd style="margin-bottom: 10px;">
+                @Html.EditorFor(model => model.Taikhoan)
+                @Html.ValidationMessageFor(model => model.Taikhoan)
+            </dd>
+
+            <dt>
+                Mật khẩu:
+            </dt>
+
+            <dd style="margin-bottom: 10px;">
+                @Html.EditorFor(model => model.Matkhau)
+                @Html.ValidationMessageFor(model => model.Matkhau)
+            </dd>
+
+            <dt>
+                Email:
+            </dt>
+
+            <dd style="margin-bottom: 10px;">
+                @Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email)
+            </dd>
+
+            <dt>
+                Địa chỉ
+            </dt>
+
+            <dd style="margin-bottom: 10px;">
+                @Html.EditorFor(model => model.DiachiKH)
+                @Html.ValidationMessageFor(model => model.DiachiKH)
+            </dd>
+
+            <dt>
+                Điện thoại
+            </dt>
+
+            <dd style="margin-bottom: 10px;">
+                @Html.EditorFor(model => model.DienthoaiKH)
+                @Html.ValidationMessageFor(model => model.DienthoaiKH)
+            </dd>
+
+            <dt>
+                Ngày sinh
+            </dt>
+
+            <dd style="margin-bottom: 10px;">
+                <input type="date" name="Ngaysinh" />
+                @Html.ValidationMessageFor(model => model.Ngaysinh)
+            </dd>
+
+
+        </dl>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Thêm mới" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("VỀ TRỞ VỀ TRANG NGƯỜI DÙNG", "Nguoidung")
+</div>

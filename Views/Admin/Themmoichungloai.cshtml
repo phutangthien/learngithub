@@ -1,0 +1,38 @@
+﻿@model Doancoso.Models.CHUNGLOAI
+
+@{
+    ViewBag.Title = "Themmoichungloai";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Thêm mới chủng loại</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            <div class="control-label col-md-3">
+                <label style="color: #000; font-size: 16px; font-weight:bold;">Tên chủng loại </label>
+            </div>
+            <div class="col-md-9">
+                @Html.EditorFor(model => model.TenCL)
+                @Html.ValidationMessageFor(model => model.TenCL)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Thêm mới" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("TRỞ VỀ", "Chungloai")
+</div>

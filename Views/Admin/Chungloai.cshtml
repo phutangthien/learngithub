@@ -1,0 +1,64 @@
+﻿@using Doancoso.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<Doancoso.Models.CHUNGLOAI>
+
+@{
+    ViewBag.Title = "Chungloai";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Chủng loại</h2>
+
+@*<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().TenCL)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenCL)
+        </td>
+        <td>
+            @Html.ActionLink("Thêm", "Themmoichungloai", new { id = item.MaCL }) |
+            @Html.ActionLink("Xoá", "Xoachungloai", new { id = item.MaCL }) 
+           
+        </td>
+    </tr>
+}
+
+</table>*@
+
+<div class="col-md-12 span_3">
+<p>
+    @Html.ActionLink("THÊM MỚI", "Themmoichungloai")
+</p>
+<div class="bs-example1" data-example-id="contextual-table">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Tên Chủng loại
+                </th>
+                
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tbody>
+                <tr class="active">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenCL)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Xoá", "Xoachungloai", new { id = item.MaCL })
+                    </td>
+                </tr>
+            </tbody>
+        }
+    </table>
+</div>
+    </div>

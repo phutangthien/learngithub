@@ -1,0 +1,114 @@
+﻿@model Doancoso.Models.CHITIETDONHANG
+
+@{
+    ViewBag.Title = "Xoadonhang";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>XÁC NHẬN THÔNG TIN ĐƠN HÀNG CẦN XÓA</h2>
+
+<h3>Bạn quyết định xóa ĐƠN HÀNG này?
+</h3><div>
+         <dl class="dl-horizontal">
+             <dt>
+                 Mã đơn hàng:
+             </dt>
+
+             <dd>
+                 @Html.DisplayFor(modelItem => Model.MaDonHang)
+             </dd>
+
+             <dt>
+                 Họ tên khách hàng:
+             </dt>
+
+             <dd>
+                 @Html.DisplayFor(model => model.DONDATHANG.KHACHHANG.HoTen)
+             </dd>
+
+             <dt>
+                 Email:
+             </dt>
+
+             <dd>
+                 @Html.DisplayFor(model => model.DONDATHANG.KHACHHANG.Email)
+             </dd>
+
+             <dt>
+                 Địa chỉ:
+             </dt>
+
+             <dd>
+                 @Html.DisplayFor(model => model.DONDATHANG.KHACHHANG.DiachiKH)
+             </dd>
+
+             <dt>
+                 Tên sản phẩm:
+             </dt>
+
+             <dd>
+
+                 @Html.DisplayFor(model => model.SANPHAM.TenSanPham)
+             </dd>
+
+             <dt>
+                 Ảnh:
+             </dt>
+
+             <dd>
+                 <img src="@Url.Content("~/images/" + Model.SANPHAM.Anh)" />
+             </dd>
+
+             <dt>
+                 Ngày giao:
+             </dt>
+
+             <dd>
+                 @Html.DisplayFor(model => model.DONDATHANG.Ngaygiao)
+             </dd>
+
+             <dt>
+                 Ngày đặt:
+             </dt>
+
+             <dd>
+                 @Html.DisplayFor(model => model.DONDATHANG.Ngaydat)
+             </dd>
+
+             <dt>
+                 Số lượng:
+             </dt>
+
+             <dd>
+                 @Html.DisplayFor(model => model.Soluong)
+             </dd>
+
+             <dt>
+                 Đơn giá:
+             </dt>
+
+             <dd>
+                 @Html.DisplayFor(model => model.Dongia)
+             </dd>
+
+             <dt>
+                 Tình trạng giao hàng:
+             </dt>
+
+             <dd>
+                 @Html.DisplayFor(model => model.DONDATHANG.Tinhtranggiaohang)
+             </dd>
+
+
+
+         </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="XOÁ" class="btn btn-primary" /> |
+            @Html.ActionLink("TRỞ VỀ", "Donhang")
+        </div>
+    }
+</div>

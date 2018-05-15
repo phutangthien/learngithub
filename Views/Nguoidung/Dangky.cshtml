@@ -1,0 +1,143 @@
+﻿<style>
+    .colorbtn input.button {
+        font-size: 14px;
+        color: rgb(210, 209, 209);
+        //background: #FA1818;
+        text-decoration: none;
+        position: relative;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        text-transform: uppercase;
+        padding: .5em 0;
+        outline: none;
+    }
+    input#HoTenKH, input#TenDN, input#MatKhau, input#MatKhauNhapLai, input#Email, input#DiaChi, input#Email, input#DienThoai, input#Ngaysinh {
+        padding: 1px 56px;
+        width: 120%;
+        margin-top: 5%;
+        height: 47px;
+        color: rgb(174, 170, 170);
+        text-align: justify;
+        outline: none;
+        letter-spacing: 1px;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'Muli', sans-serif;
+        background-color: transparent;
+        border-radius: 30px;
+    }
+
+        input#HoTenKH:focus, input#TenDN:focus, input#MatKhau:focus, input#MatKhauNhapLai:focus, input#Email:focus, input#DiaChi:focus, input#Email:focus, input#DienThoai:focus, input#Ngaysinh:focus {
+            background-color: #fff;
+            border: 1px solid rgb(253, 163, 14);
+        }
+    .register {
+        background-color: #f15f22;
+        width: 82%;
+        height: 55px;
+        margin-top: 15%;
+        border: none;
+        margin-left: 233px;
+        cursor: pointer;
+        margin-left: 22%;
+        color: #fff;
+        outline: none;
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -o-border-radius: 30px;
+        -ms-border-radius: 30px;
+        font-family: 'Muli', sans-serif;
+    }
+   
+</style>
+
+@{
+    ViewBag.Title = "Đăng Ký";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+
+<div class="page-head">
+    <div class="container">
+        <h3>ĐĂNG KÝ</h3>
+    </div>
+</div>
+<table align="center" style="margin-top: 3%;">
+
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        <tr style="height:40px;">
+            <td style="color: #000; position: relative; font-size: 16px; left: -11%; ">Họ tên khách hàng:</td>
+            <td>
+                @Html.TextBox("HoTenKH")
+                @ViewData["Loi1"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td style="color: #000; position: relative; font-size: 16px; left: -11%; ">Tên đăng nhập:</td>
+            <td>
+                @Html.TextBox("TenDN")
+                @ViewData["Loi2"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td style="color: #000; position: relative; font-size: 16px; left: -11%; ">Mật khẩu:</td>
+            <td>
+                @Html.Password("MatKhau")
+                @ViewData["Loi3"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td style="color: #000; position: relative; font-size: 16px; left: -11%; ">Nhập lại mật khẩu:</td>
+            <td>
+                @Html.Password("MatKhauNhapLai")
+                @ViewData["Loi4"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td style="color: #000; position: relative; font-size: 16px; left: -11%; ">Email:</td>
+            <td>
+                @Html.TextBox("Email")
+                @ViewData["Loi5"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td style="color: #000; position: relative; font-size: 16px; left: -11%; ">Địa Chỉ:</td>
+            <td>
+                @Html.TextBox("DiaChi")
+                @ViewData["Loi6"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td style="color: #000; position: relative; font-size: 16px; left: -11%; ">Điện Thoại:</td>
+            <td>
+                @Html.TextBox("DienThoai")
+                @ViewData["Loi7"]
+            </td>
+        </tr>
+        <tr style="height:40px;">
+            <td style="color: #000; position: relative; font-size: 16px; left: -11%; ">Ngày sinh:</td>
+            <td>
+                <input id="Ngaysinh" type="date" name="Ngaysinh" />
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td></td>
+            <td class="">
+                <input class="register" type="submit" value="Đăng Ký" />
+            </td>
+        </tr>
+    }
+</table>
+
+

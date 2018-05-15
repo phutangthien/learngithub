@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Doancoso.Models.CHITIETDONHANG>
+@using Doancoso.Models;
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Donhang";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>ĐƠN HÀNG</h2>
+
+<div class="col-md-12 span_3">
+
+    <div class="bs-example1" data-example-id="contextual-table">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Mã đơn hàng
+                    </th>
+                    <th>
+                        Tên khách hàng
+                    </th>
+                    <th>
+                        Tên Sản phẩm
+                    </th>
+                    <th>
+                        Sản phẩm
+                    </th>
+                    <th>
+                        Ngày giao
+                    </th>
+                    <th>
+                        Ngày đặt
+                    </th>
+                    <th>
+                        Số ĐT
+                    </th>
+                    <th>
+                        Số lượng
+                    </th>
+                    <th>
+                        Đơn giá
+                    </th>
+                    <th>
+                        Tình trạng giao hàng
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            @foreach (var item in Model)
+            {
+                <tbody>
+                    <tr class="active">
+                        <td>
+                           0 0 @Html.DisplayFor(modelItem => item.MaDonHang)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DONDATHANG.KHACHHANG.HoTen)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SANPHAM.TenSanPham)
+                        </td>
+                        <td>
+                            <img class="img-responsive" src="@Url.Content("~/images/" + item.SANPHAM.Anh)" />
+                        </td>   
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DONDATHANG.Ngaygiao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DONDATHANG.Ngaydat)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DONDATHANG.KHACHHANG.DienthoaiKH)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Soluong)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Dongia)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DONDATHANG.Tinhtranggiaohang)
+                        </td>
+                        <td>
+                            <a href="#">Chi tiết</a> |
+                            <a href="#">Xoá</a>
+
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+
+
+
