@@ -12,6 +12,7 @@ using Doancoso.Models;
 
 namespace Doancoso.Controllers
 {
+	////////////////////////CAP NHAT CHO GITHUB
     [Authorize]
     public class AccountController : Controller
     {
