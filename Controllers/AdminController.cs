@@ -13,6 +13,8 @@ using System.Data.Entity;
 
 namespace Doancoso.Controllers
 {
+
+    //------ĐÃ thay đổi
     public class AdminController : Controller
     {
         //
